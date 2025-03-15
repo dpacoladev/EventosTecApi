@@ -9,8 +9,8 @@ import lombok.Setter;
 import java.util.Date;
 import java.util.UUID;
 
-@Entity
-@Table(name = "event")
+@Entity(name = "tb_events")
+@Table(name = "tb_events")
 @Setter
 @Getter
 @NoArgsConstructor

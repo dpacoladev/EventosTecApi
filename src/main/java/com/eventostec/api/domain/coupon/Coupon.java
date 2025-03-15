@@ -10,8 +10,8 @@ import lombok.Setter;
 import java.util.Date;
 import java.util.UUID;
 
-@Entity
-@Table(name = "coupon")
+@Entity(name = "tb_coupons")
+@Table(name = "tb_coupons")
 @Getter
 @Setter
 @NoArgsConstructor

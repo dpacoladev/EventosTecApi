@@ -9,8 +9,8 @@ import lombok.Setter;
 
 import java.util.UUID;
 
-@Entity
-@Table(name = "address")
+@Entity(name = "tb_addresses")
+@Table(name = "tb_addresses")
 @Getter
 @Setter
 @NoArgsConstructor
